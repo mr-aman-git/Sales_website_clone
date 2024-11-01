@@ -1,0 +1,364 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+    background-color: rgb(89, 209, 209);
+    align-items: center;
+}
+#logo{
+    
+    height: 70%;
+    margin: 25px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#fakeheader{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.text{
+    display: flex;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text:hover{
+    color: rgb(38, 38, 207);
+}
+#contact{
+    margin: 40px;
+    text-align: center;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.icon{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: rgba(116, 176, 201, 0.699);
+}
+#login{
+        display: flex;
+        margin-left: 20px;
+        
+        padding: 10px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    #login:hover{
+        background-color: rgb(154, 199, 225);
+    }
+#try{
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#try:hover{
+    background-color: rgb(3, 65, 3);
+}
+#page1{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    
+}
+#strip{
+    width: 100%;
+    height: 6%;
+    background-color: rgb(9, 8, 49);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+#content{
+    width: 100%;
+    height: 73%;
+    background-color: white;
+    display: flex;
+    
+}
+#box1{
+    width: 50%;
+    height: 97%;
+    background-color: white;
+    margin: 5px;
+}
+#box1 h1{
+    color: rgb(9, 9, 59);
+    font-weight: 600;
+    font-size: 50px;
+    margin: 60px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box1 p{
+    font-size: x-large;
+    font-weight: lighter;
+    color: rgb(57, 55, 55);
+    margin: 40px 40px;
+}
+
+#buttom{
+    width: 100%;
+    height: 23%;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+#buttom h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 43);
+}
+#click{
+    margin-top: 60px;
+    display: flex;
+}
+#btns1{
+    padding: 10px;
+    color: white;
+    
+    background-color: #0176d3;
+    width: 26%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btns1:hover{
+    background-color: rgb(12, 12, 61);
+    
+}
+#btns2{
+    padding: 10px;
+    color: #0176d3;
+    border: 2px solid #0176d3;
+    width: 26%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btns2:hover{
+    background-color: rgb(219, 231, 236);
+    color: rgb(12, 12, 61);
+    border-color: rgb(12, 12, 61);
+}
+#box2{
+    width: 50%;
+    height: 97%;
+    background-color: rgb(71, 102, 126);
+    margin-right: 80px;
+    margin-top: 10px;
+    display: flex;
+    object-fit: cover;
+}
+
+
+#page2{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+#card{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    
+}
+#atm1{
+    width: 21%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 1px 2px 9px  rgba(48, 48, 48, 0.783);
+    
+}
+#atm1:hover{
+    box-shadow: 2px 4px 23px red;
+    filter: blur(red);
+ 
+    
+}
+.head{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.head:hover{
+    color: rgb(5, 158, 5);
+}
+
+.head p{
+    margin-right: 20%;
+    margin-top: 20px;
+}
+#touch{
+    margin-left: 20px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+#touch u:hover{
+    color: rgb(7, 5, 121);
+}
+#atm1 img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+#atm2{
+    width: 21%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 1px 2px 9px  rgba(48, 48, 48, 0.783);
+    
+}
+#atm2:hover{
+    box-shadow: 2px 4px 23px red;
+    filter: blur(red);  
+}
+
+#touch1{
+    margin-left: 20px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+#touch1 u:hover{
+    color: rgb(7, 5, 121);
+}
+#atm2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+
+
+#atm3{
+    width: 21%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 1px 2px 9px  rgba(48, 48, 48, 0.783);
+    
+}
+#atm3:hover{
+    box-shadow: 2px 4px 23px red;
+    filter: blur(red);  
+}
+
+#touch2{
+    margin-left: 20px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+#touch2 u:hover{
+    color: rgb(7, 5, 121);
+}
+#atm3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+#atm4{
+    width: 21%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 1px 2px 9px  rgba(48, 48, 48, 0.783);
+    
+}
+#atm4:hover{
+    box-shadow: 2px 4px 23px red;
+    filter: blur(red);  
+}
+
+#touch3{
+    margin-left: 20px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+#touch3 u:hover{
+    color: rgb(7, 5, 121);
+}
+#atm4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+#smart{
+    width: 100%;
+    height: 30%;
+}
+
+#tap{
+    width: 15%;
+    background: radial-gradient(circle,#28da18,#16e5f4);
+    padding: 20px;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: rgb(2, 15, 61);
+    cursor: pointer;
+}
+#tap:hover{
+
+    background: radial-gradient(circle,#dc35ce,#ec7a10);
+}
+#pic{
+    height: 5%;
+    position: absolute;
+    
+    
+}
